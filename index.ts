@@ -391,26 +391,26 @@ const allTools = [
     description: "Delete an issue from a GitLab project",
     inputSchema: zodToJsonSchema(DeleteIssueSchema),
   },
-  {
-    name: "list_issue_links",
-    description: "List all issue links for a specific issue",
-    inputSchema: zodToJsonSchema(ListIssueLinksSchema),
-  },
-  {
-    name: "list_issue_discussions",
-    description: "List discussions for an issue in a GitLab project",
-    inputSchema: zodToJsonSchema(ListIssueDiscussionsSchema),
-  },
-  {
-    name: "get_issue_link",
-    description: "Get a specific issue link",
-    inputSchema: zodToJsonSchema(GetIssueLinkSchema),
-  },
-  {
-    name: "create_issue_link",
-    description: "Create an issue link between two issues",
-    inputSchema: zodToJsonSchema(CreateIssueLinkSchema),
-  },
+  // {
+  //   name: "list_issue_links",
+  //   description: "List all issue links for a specific issue",
+  //   inputSchema: zodToJsonSchema(ListIssueLinksSchema),
+  // },
+  // {
+  //   name: "list_issue_discussions",
+  //   description: "List discussions for an issue in a GitLab project",
+  //   inputSchema: zodToJsonSchema(ListIssueDiscussionsSchema),
+  // },
+  // {
+  //   name: "get_issue_link",
+  //   description: "Get a specific issue link",
+  //   inputSchema: zodToJsonSchema(GetIssueLinkSchema),
+  // },
+  // {
+  //   name: "create_issue_link",
+  //   description: "Create an issue link between two issues",
+  //   inputSchema: zodToJsonSchema(CreateIssueLinkSchema),
+  // },
   {
     name: "delete_issue_link",
     description: "Delete an issue link",
